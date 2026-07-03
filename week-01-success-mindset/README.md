@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe long-distance relationships often grow stronger, not weaker, because distance forces both people to focus on their own work and life instead of micromanaging each other's decisions. That space reduces friction, not connection. Most people blame distance for failed relationships, but I think the real problem is over-involvement something distance naturally prevents.
 
 ---
 
@@ -55,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Practical hands-on learning teaches more effectively than passive learning like watching videos or reading.
 
 ### Evidence from my life
 
-Add your answer here...
+I tried learning concepts just by watching tutorials and I'd forget most of it within days. When I actually built something myself and applied the concept directly it stuck far longer and I understood it more deeply. The difference was consistent enough that I now trust doing over watching every time.
 
 ---
 
@@ -67,11 +67,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Regular physical activity directly improves energy levels and long-term health regardless of how motivated you feel to do it.
 
 ### Evidence from my life
 
-Add your answer here...
+On days I did some physical activity I noticed higher energy and better focus later in the day compared to days I skipped it entirely. Over time this made me believe that staying physically active isn't just about looking fit it's what lets you stay energetic and functional for more years of your life.
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Multitasking causes more mistakes than focusing on one task at a time.
 
 ### Evidence from my life
 
-Add your answer here...
+Whenever I tried to handle multiple tasks at once I noticed I made more mistakes and had to redo work. When I forced myself to focus on a single task with full attention before moving to the next the quality of my work improved and mistakes dropped noticeably.
 
 ---
 
@@ -135,13 +135,25 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+ Five years ago, I made the decision to step away from a stable career as a lecturer and transition into the tech industry specifically DevOps and cloud computing. With a computer science background already behind me, I had the theoretical foundation, but I knew I needed real, hands-on experience to make the shift credible.
+
+I started with structured courses in Microsoft Azure to build practical cloud computing skills, and paired that with cybersecurity fundamentals to understand infrastructure from both a deployment and security perspective. My computer science background made the concepts easier to grasp, but it was the hands-on labs and projects that turned theory into actual skill. Along the way, I earned my Microsoft Azure certification, which became the foundation of my cloud expertise going forward.
+
+The real shift happened when I started taking on project-based tasks offered by companies through training programs and micro-internships. These gave me something a classroom never could: real deadlines, real infrastructure problems, and feedback from people already working in the industry. I used those opportunities to build CI/CD pipelines, containerize applications with Docker, and automate deployments using Infrastructure-as-Code tools like Terraform, all within the Azure ecosystem.
+
+Leaving a teaching career wasn't an easy decision, but the discipline of breaking down complex ideas for students turned out to be one of my biggest advantages I could learn dense technical material quickly and also explain it clearly to others. I documented my learning journey publicly, which built a visible portfolio and eventually opened the door to my first real DevOps role, where I contributed to migrating infrastructure to a cloud-native setup on Azure.
+
+From there, I led a small automation project that meaningfully cut manual deployment work, mentored other career switchers making the same leap I once made, and eventually stepped into a Devops Engineer role proof that a background outside tech isn't a disadvantage, it's a different kind of foundation.
+
+Looking back, the skills that got me here weren't just technical. Years of teaching had already given me the patience and structure to learn hard things properly  tech just gave me a new subject to apply them to.
+
+
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+`https://maida-devops-journey.blogspot.com/2026/07/from-career-switcher-to-devops-engineer.html`
 
 ---
 
@@ -173,7 +185,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+No
 
 ---
 
@@ -199,16 +211,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. The Phoenix Project — Gene Kim, Kevin Behr, George Spafford
+2. The Psychology of Money — Morgan Housel 
+3. Atomic Habits — James Clear
+4. Deep Work — Cal Newport
+5. How to Win Friends and Influence People — Dale Carnegie 
+6. Can't Hurt Me — David Goggins
+7. Why We Sleep — Matthew Walker
+8. The Effective Engineer — Edmond Lau
+9. Rich Dad Poor Dad — Robert Kiyosaki
+10. Extreme Ownership — Jocko Willink & Leif Babin 
 
 ---
 
@@ -237,16 +249,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours per week (courses, hands-on labs)
+* Assignments shipped / documented on GitHub or blog
+* Deep work / focused study sessions per week
+* Time spent on distractions (social media, phone)
+* Job applications / networking outreach per week
+* Expenses tracked (spending awareness)
+* Sleep hours
+* Physical activity / workouts per week
+* Money saved or invested per month
+* New skills/tools practiced per month
 
 ---
 
@@ -272,7 +284,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -290,19 +302,21 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
-
+Sat: Attend the DMI live session
+Sun–Wed: Work on and complete that week's DMI assignment (a bit each day so it's not rushed)
+Thu: Final review and polish of the assignment before submission
+Mon–Fri: Also do 1 hour/day of regular DevOps/cloud learning (Course tutprials, hands-on practice) alongside the assignment work
 ---
 
 ### Focus Blocks
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Sunday to Wednesday evenings, 7:00–9:00 PM — for assignment work; Thursday 7:00–8:00 PM for final review/polish before submission
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+5 dedicated DMI sessions (Sun, Mon, Tue, Wed for assignment work + Thu for review) + 1 live session (Sat) = 6 sessions/week total, plus separate daily 1-hour learning blocks (Mon–Fri) for general DevOps/cloud skill-building
 
 ---
 
@@ -316,7 +330,11 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+Phone: Keep phone on silent/Do Not Disturb and out of reach during the 7–9 PM focus blocks
+Social media: No checking social media until the day's assignment/learning work is done
+Notifications: Turn off non-essential app notifications during focus hours
+Environment: Work from the same dedicated spot each time (desk, not bed/couch) to build a consistent focus habit
+
 
 ---
 
@@ -324,28 +342,28 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+This week I realized I'm capable of more than I gave myself credit for. Working through these assignments pushed me to reflect on my own beliefs, habits, and journey in a way I hadn't done before, and it reinforced the belief that "I can do it" even without a traditional background in tech.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I noticed I sometimes doubt myself before starting something new, even though once I actually begin, I'm able to figure things out and make progress. The hesitation at the start is bigger than the actual difficulty of the task itself.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I will start doing my work on time and stay consistent with all the habits and measures I've planned for my 5-month journey daily learning at 7:00 PM, weekly reviews, and tracking my metrics instead of letting things slip or waiting until I "feel ready."
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/maida-sehar-2ab997263_join-the-dmi-devops-micro-internship-share-7478820569543634944-7X8D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: **https://www.linkedin.com/posts/maida-sehar-2ab997263_join-the-dmi-devops-micro-internship-share-7478820569543634944-7X8D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q**  
+- Blog / Medium : **https://maida-devops-journey.blogspot.com/2026/07/from-career-switcher-to-devops-engineer.html`**  
 
 ---
 
