@@ -135,7 +135,7 @@ Week 01 → Success Mindset
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_join-the-dmi-devops-micro-internship-share-7478820569543634944-7X8D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q`
- | https://maida-devops-journey.blogspot.com/2026/07/from-career-switcher-to-devops-engineer.html|
+ | https://maida-devops-journey.blogspot.com/2026/07/from-career-switcher-to-devops-engineer.html | https://maida-devops-journey.blogspot.com/2026/07/why-i-left-teaching-to-learn-devops.html|
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
