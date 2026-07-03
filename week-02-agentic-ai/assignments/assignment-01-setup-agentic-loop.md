@@ -13,7 +13,7 @@
 
 ## 2. Objective
 
-Install and authenticate Claude Code CLI and VS Code extension, fork and clone the course starter (repository)[https://github.com/pravinmishraaws/Ultimate-Agentic-DevOps-with-Claude-Code], and observe how the Agentic Loop works before any configuration is in place.
+Install and authenticate Claude Code CLI and VS Code extension, fork and clone the course starter [repository](https://github.com/pravinmishraaws/Ultimate-Agentic-DevOps-with-Claude-Code), and observe how the Agentic Loop works before any configuration is in place.
 
 ---
 
