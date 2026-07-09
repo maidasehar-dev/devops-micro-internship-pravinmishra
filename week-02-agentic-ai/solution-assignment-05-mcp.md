@@ -21,8 +21,8 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
 Add your screenshot here.
+![Screenshot1](<screenshots/Screenshot 1Assignment 5 Github generate Token.png>)
 
----
 
 # Task 2 — Create .mcp.json at the Project Root
 
@@ -35,8 +35,8 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
 Add your screenshot here.
+![Screenshot2](<screenshots/Screenshot 2 Assignment 5 Task 2.png>)
 
----
 
 # Task 3 — Add Your Token to settings.local.json
 
@@ -49,8 +49,8 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
 Add your screenshot here.
+![Screenshot3](<screenshots/Screenshot3 Assignment 5 task 3.png>)
 
----
 
 # Task 4 — Verify the Connection with /mcp
 
@@ -63,8 +63,8 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
 Add your screenshot here.
+![Screenshot4](<screenshots/Screenshot4 Assignment 5 task 4.png>)
 
----
 
 # Task 5 — Run a Live GitHub Query
 
@@ -77,8 +77,10 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
 Add your screenshot here.
+![Screenshot5](<screenshots/Screenshot 5 Assignment 5 Task 5A.png>)
+![Screenshot5](<screenshots/Screenshot5 Assignment 5 task 5B.png>)
 
----
+
 
 # Submission Instructions
 
@@ -94,29 +96,29 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/maidasehar-dev/Ultimate-Agentic-DevOps-with-Claude-Code`
 
----
+https://github.com/maidasehar-dev/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ## Security Confirmation
 
 Confirm below:
 
-- [ ] `settings.local.json` is added to `.gitignore`
-- [ ] GitHub token is NOT exposed in repository or screenshots
+- [x] `settings.local.json` is added to `.gitignore`
+- [x] GitHub token is NOT exposed in repository or screenshots
 
 ---
 
 # Completion Checklist
 
-- [ ] GitHub PAT created with correct scopes (`repo`, `read:user`)
-- [ ] `.mcp.json` created at project root
-- [ ] `.claude/settings.local.json` contains token (hidden in screenshot)
-- [ ] `.claude/settings.local.json` is NOT committed
-- [ ] `/mcp` shows GitHub connection as active
-- [ ] Live GitHub query returns real repository data
-- [ ] All required screenshots added
-- [ ] GitHub repository URL included
+- [x] GitHub PAT created with correct scopes (`repo`, `read:user`)
+- [x] `.mcp.json` created at project root
+- [x] `.claude/settings.local.json` contains token (hidden in screenshot)
+- [x] `.claude/settings.local.json` is NOT committed
+- [x] `/mcp` shows GitHub connection as active
+- [x] Live GitHub query returns real repository data
+- [x] All required screenshots added
+- [x] GitHub repository URL included
 
 ---
 
