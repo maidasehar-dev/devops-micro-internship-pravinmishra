@@ -21,8 +21,8 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
 Add your screenshot here.
+![Screenshot1](<screenshots/Screenshort Assignmnet 2 task 1.png>)
 
----
 
 # Task 2 — Generate the First Draft with /init
 
@@ -35,8 +35,8 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
 Add your screenshot here.
+![Screenshot2](<screenshots/Screenshot 2 Assignment 2 task 2.png>)
 
----
 
 # Task 3 — Customize the CLAUDE.md
 
@@ -49,8 +49,8 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
 Add your screenshot here.
+![Screenshot3](<screenshots/Screenshot 3 Assignment 2 task 3.png>)
 
----
 
 # Task 4 — Test the After State
 
@@ -63,14 +63,14 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
 Add your screenshot here.
+![Screenshot4](<screenshots/Screenshot 4 Assignment 2 task 4.png>)
 
----
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
 Add your screenshot here.
+![Screenshot5](<screenshots/Screenshot 5 Assignment 2 task 5.png>)
 
----
 
 # Task 5 — Commit and push your changes to your fork in GitHub
 
@@ -83,8 +83,8 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
 Add your screenshot here.
+![Screenshot6](<screenshots/Screenshot 6 Assignment 2 task 6.png>)
 
----
 
 # Submission Instructions
 
@@ -98,9 +98,9 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/maidasehar-dev/Ultimate-Agentic-DevOps-with-Claude-Code_`
 
----
+https://github.com/maidasehar-dev/Ultimate-Agentic-DevOps-with-Claude-Code
 
 # Completion Checklist
 
