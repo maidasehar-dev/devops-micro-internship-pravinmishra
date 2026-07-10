@@ -46,15 +46,14 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Screenshot1](<screenshots/Screenshot 1 Assignment 8 reflection blog.png>)
 
----
 
 ### Submission Field
 
 Blog Link:
 
-`__________________________________________`
+`https://github.com/maidasehar-dev/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/reflection-week-2.md`
 
 ---
 
@@ -93,22 +92,36 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 #### Screenshot 2 — LinkedIn post published
 
 Add your screenshot here.
+![Screenshot2](<screenshots/Screenshot2 Assignment 8 linkedin post.png>)
+![Screenshot2](<screenshots/Screenshot2 Assignment 8 linkedin postB.png>)
 
----
+
 
 ### Submission Field
 
 LinkedIn Post Content (copy-paste here):
 
-```
-Paste your LinkedIn post content here
-```
+🚀 Week 2 of the DevOps Micro Internship (Agentic AI Cohort 3) just wrapped, and it fundamentally changed how I think about working with AI tools. 
 
----
+I started the week installing Claude Code and watching it read files before answering a question — simple, but it was the first time "agentic" stopped being a buzzword and started being something I could actually observe: gather context, act, verify. 
+
+🔄 From there, things escalated fast. I wrote a CLAUDE.md file 📝 and watched the same question get a completely different, more specific answer once Claude had project context. I built custom Skills ⚡ that turn long prompts into single slash commands. I configured Subagents 🤖 with different models and tool permissions for different jobs — a security auditor that can only read, a Terraform writer that can actually make changes. 
+
+The moment that stuck with me most, though, was hooks. 🛡️ I wrote a script that intercepts a Bash command before it runs, and then watched it actually block a `terraform destroy` command in real time — not because I trusted the AI to be careful, but because the system was designed not to need that trust. That's a different mental model than "prompt engineering." It's closer to how you'd design permissions for a new hire: not "hope they're careful," but "structure things so mistakes are hard to make." 
+
+Most of my real learning this week came from debugging, not from things working on the first try 🐛 — chasing down a hook that silently failed because of a relative file path, figuring out why a file landed in the wrong folder. That process taught me more about how these systems actually work than any of the assignments that went smoothly. 
+
+Full reflection on what I learned (and what I'm changing next week) linked below👇
+https://lnkd.in/ezxFXbRH.  
+
+🙏 A heartfelt thank you to our amazing co-mentors Anjana Muthunayake (Lead Co-Mentor), Faith Samson, Joy Ukpabi, and Rukevwe ubioworo—for your guidance, encouragement, and constant support throughout this journey. Your mentorship has made this learning experience all the more meaningful, and I'm truly grateful for everything you've shared with us.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://lnkd.in/ebB9mHCD ). #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
+
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/maida-sehar-2ab997263_dmibypravinmishra-agenticai-claudecode-share-7481149187225595904-maw8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q`
 
 ---
 
@@ -124,15 +137,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [x] Blog written with required structure
+* [x] Blog includes at least 2–3 Week 2 topics
+* [x] Blog is publicly accessible
+* [x] LinkedIn post created
+* [x] Required P.S. line included
+* [x] LinkedIn post content copied in submission field
+* [x] Blog link added
+* [x] LinkedIn post link added
+* [x] Screenshots added to GitHub repo
 
 ---
 
