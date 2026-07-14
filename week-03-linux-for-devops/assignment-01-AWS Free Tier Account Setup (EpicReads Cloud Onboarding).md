@@ -22,19 +22,19 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 Write your answer here.
 
----
+An AWS account is your organization's identity within Amazon Web Services, allowing you to access and manage cloud resources. It is required to use services like EC2 (servers), S3 (storage), and IAM (access management) all of which operate within an AWS account. Without an AWS account, you cannot deploy or manage the cloud infrastructure for EpicReads.
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
 Write your answer here.
 
----
+AWS Free Tier allows new users to explore and use AWS services at no cost within specified usage limits, though the structure now depends on when the account was created. For accounts created on or after July 15, 2025 (including mine), AWS provides a Free plan with $100–$200 in credits, usable across eligible services like EC2 and S3, lasting up to 6 months or until the credits run out whichever comes first. Separately, select services fall under Always Free, offering ongoing free usage with no expiry (e.g. AWS Lambda), and Short-Term Trials, which give temporary free access to specific services after first use. Older accounts (created before July 2025) instead follow the legacy 12-month free tier for services like EC2 and S3.
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
 Write your answer here.
 
----
+AWS provides several Free Tier services with specific usage limits. Since my account was created after July 2025, I'm on the Free plan, which gives $100 in credits usable across services like EC2 (e.g. t3.micro instances) and S3 (standard storage), rather than a fixed 12-month allowance. Separately, AWS Lambda is an Always Free service offering 1 million requests and 400,000 GB-seconds of compute per month, permanently, with no time limit or credit consumption.
 
 # Task 2 — Create AWS Free Tier Account
 
@@ -57,8 +57,8 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
 Add your screenshot here.
+![Screenshot1](<screenshots/Task3 Screenshot.png>)
 
----
 
 # Submission Instructions
 
@@ -70,11 +70,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1 answers written in own words
-- [ ] AWS Free Tier account created successfully
-- [ ] Signed in to AWS Management Console
-- [ ] Screenshot of AWS Account page captured (full name visible, no sensitive data)
-- [ ] All required screenshots added to repository
+- [x] Task 1 answers written in own words
+- [x] AWS Free Tier account created successfully
+- [x] Signed in to AWS Management Console
+- [x] Screenshot of AWS Account page captured (full name visible, no sensitive data)
+- [x] All required screenshots added to repository
 
 ---
 
