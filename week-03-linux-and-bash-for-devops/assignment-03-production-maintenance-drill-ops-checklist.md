@@ -44,19 +44,13 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
-
 In the sudo ss -tulpen output, I can see a line showing 0.0.0.0:80 with the process listed as nginx. This confirms Nginx is actively listening for connections on port 80 across all network interfaces.
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
-
 Similarly, the ss -tulpen output shows 0.0.0.0:22 with the process sshd, confirming SSH is listening on port 22 across all interfaces, allowing remote connections.
 
 **3. Did you find any unexpected open ports? Explain briefly.**
-
-Write your answer here.
 
 No unexpected open ports were found. Besides SSH (22) and Nginx (80), which are intentionally exposed, the only other listening ports were 53 (DNS resolution via systemd-resolved), 323 (time synchronization via chrony), and 68 (DHCP client via systemd-networkd). Importantly, all of these additional services are bound only to localhost addresses (127.0.0.1, 127.0.0.53, 127.0.0.54) or the internal network interface, not to 0.0.0.0, meaning they aren't accessible from the public internet — only SSH and Nginx are externally reachable. This is a healthy, expected configuration for a basic web server.
 
@@ -89,13 +83,9 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
-
 If Nginx fails to restart, the server would stop responding to HTTP requests entirely, meaning the React app becomes completely inaccessible to users — resulting in downtime. In a real production environment, this could mean lost revenue, broken user experience, or failed health checks that could trigger alerts or even auto-scaling/replacement actions if using tools like AWS Auto Scaling or Kubernetes.
 
 **2. What's your basic rollback plan?**
-
-Write your answer here.
 
 My rollback plan would be: (1) check sudo nginx -t to see if there's a configuration syntax error, (2) if the config is broken, restore the last known-good config file (ideally from a backup or version control), (3) run sudo systemctl restart nginx again, and (4) verify recovery with curl -I http://<public-ip> to confirm a 200 OK response. If Nginx itself is corrupted, reinstalling it (sudo apt install --reinstall nginx) would be the next step.
 
@@ -131,19 +121,13 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
-
 No errors were found in the error log. The only entry present was a routine startup notice ("using inherited sockets from '5;6;'"), which simply indicates Nginx reused existing network sockets during a restart — this is normal operational behavior, not an error.
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
-
 An empty (or error-free) error log indicates the system is stable and healthy — Nginx has not encountered any issues serving requests, handling configuration, or with permissions/file access. It suggests the server is operating exactly as expected with no unresolved problems.
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
-
-Write your answer here.
 
 Yes, my curl request was clearly visible in the access log, showing my server's own IP address and the user-agent curl/8.18.0, distinguishing it from browser-based traffic. This confirms that all HTTP traffic — regardless of source (browser or command-line tool) — is being logged and processed correctly by Nginx, proving the full request pipeline (client → Nginx → response) is functioning as expected. Interestingly, the access log also revealed automated bot traffic attempting a known router exploit against my server, which is normal background noise for any public-facing web server and reinforces the importance of keeping only necessary ports open (Task 8 discusses this further).
 
@@ -181,13 +165,9 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
-
 Right now, none of the resources are in a critical state load average is at 0.00 (essentially idle), memory usage is around 38% with healthy availability, and disk usage is at 50% with 3.4GB still free. If I had to flag one to watch going forward, it would be disk usage, since it's already at the halfway mark on a small 6.7GB volume as more logs, builds, or dependencies accumulate over time, this could become a real constraint faster than CPU or memory would, given the server is a small t3.micro instance with limited storage.
 
 **2. What happens if disk becomes 100% full in a production server?**
-
-Write your answer here.
 
 If disk usage reaches 100%, the server can no longer write new data — this can cause several cascading failures: the application may crash or fail to log errors, Nginx may be unable to write access/error logs, database writes (if any) would fail, and even basic system operations like package updates or temp file creation could break. In severe cases, the OS itself can become unstable if critical system logs or temp directories can't be written to. This is why monitoring disk usage and setting up alerts before reaching capacity is a standard production practice.
 
@@ -218,8 +198,6 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
-
-Write your answer here.
 
 To confirm the correct version is deployed, I checked multiple layers: first, ls -lah /var/www/html confirmed the build files (index.html, static assets, manifest.json) were present with the correct ownership (www-data). 
 Second, since this is a React app, the actual personalized content ("Deployed by: Maida Sehar") isn't in the raw index.html  it's compiled into the JavaScript bundle so I searched the minified JS file directly (grep -o "Deployed by..." static/js/main.*.js) and confirmed my name appeared correctly, proving the personalized build (not a stale or default one) was deployed. 
@@ -253,19 +231,13 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
-
 The failure was caused by a syntax error in the Nginx configuration file — specifically, a missing semicolon at the end of the server_name _; directive. When I first tried to fix it, I accidentally introduced a second error (a stray character before the directive), which caused a different but related syntax failure. This demonstrates how even small, easy-to-miss typos in configuration files can bring down a web server entirely.
 
 **2. How did you fix the issue?**
 
-Write your answer here.
-
 I used sudo nginx -t to test the configuration before reloading this is critical because it validates syntax without actually restarting the service, avoiding unnecessary downtime from a bad config. The error message pointed to the exact line and file, which let me open the file with nano, correct the missing semicolon (and the accidental stray character), and re-run nginx -t until it reported "syntax is ok." Only then did I reload Nginx with sudo systemctl reload nginx and verified recovery with curl -I, which returned a 200 OK.
 
 **3. How can you avoid this kind of issue in real production systems?**
-
-Write your answer here.
 
 Several practices would help prevent this in production: 
 (1) always run nginx -t before reloading or restarting Nginx never apply changes blindly.
@@ -298,19 +270,13 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
-
 The application broke because I deliberately deleted all the deployed build files from the Nginx web root (/var/www/html/*), simulating a scenario like an accidental rm -rf command, a failed deployment script, or a misconfigured cleanup job. With no files left to serve, Nginx returned a 500 Internal Server Error — since my custom config's fallback (try_files $uri /index.html;) also couldn't find index.html to serve, resulting in an internal error rather than a simple 404.
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
-
 Since I had proactively created a backup of the web root (/var/www/html_backup) before simulating the failure, recovery was straightforward — I simply copied the backup files back into /var/www/html/ using sudo cp -r /var/www/html_backup/* /var/www/html/, then verified recovery with curl -I, which confirmed a 200 OK response.
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
-
-Write your answer here.
 
 To prevent this in real production: 
 (1) never manually delete deployment directories without a backup or version control safety net.
@@ -331,31 +297,21 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
-
 SSH key-based authentication uses a cryptographic key pair (public and private) instead of a password. The private key never leaves my local machine, so even if someone intercepts network traffic, they can't extract a password to reuse. Passwords, by contrast, can be guessed, brute-forced, phished, or reused across multiple services, making them far more vulnerable. In my setup, only someone with my exact .pem file could authenticate to the server a much stronger guarantee than any password could provide.
 
 **2. Why should only required ports be open on a production server?**
-
-Write your answer here.
 
 Every open port is a potential attack surface. During this assignment, I confirmed only ports 22 (SSH) and 80 (HTTP) were exposed to the internet — exactly what's needed for remote access and serving the web app. Opening unnecessary ports increases the risk of unauthorized access, misconfigured services being exploited, or automated bots scanning for vulnerabilities (as I actually observed in my Nginx access logs, where a bot attempted a known router exploit). Keeping the attack surface minimal is a core security principle.
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
-
 If Nginx isn't enabled on boot, the application would go down after any server restart (e.g. due to maintenance, a crash, or an AWS instance reboot) and stay down until someone manually starts it again. Since we confirmed Nginx was enabled via systemctl status, it will automatically restart with the server, minimizing downtime and reducing dependency on manual intervention critical for production reliability.
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
-
 If secrets like SSH private keys, AWS credentials, or passwords are exposed (e.g. accidentally committed to a public GitHub repo), anyone could use them to access, modify, or destroy resources potentially deploying malicious code, stealing data, or racking up massive cloud costs. This is why I made sure to blur AWS account details in screenshots and never included the .pem key file in my git repository throughout this assignment.
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
-
-Write your answer here.
 
 Leaving cloud resources running unnecessarily wastes money (even within free tier, credits get consumed) and increases the attack surface an idle but running server is still a live target for attackers. That's why I stopped my EC2 instance overnight between assignments, only restarting it when I needed to continue work, following good cost and security hygiene practices.
 
