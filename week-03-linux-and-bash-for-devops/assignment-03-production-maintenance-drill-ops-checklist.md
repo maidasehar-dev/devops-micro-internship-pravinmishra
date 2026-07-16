@@ -20,25 +20,21 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot 1 Task 1 Assign 3.png>)
 
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task 1Assign 3.png>)
 
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
 ![Screenshot3](<screenshots/Screenshot3 Task 1 Assign 3.png>)
 
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
 ![Screenshot4](<screenshots/Screenshot4 Task 1 Assign3.png>)
 
 
@@ -74,19 +70,16 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task2 Assign 3.png>)
 
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task2 Assign3.png>)
 
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
 ![Screenshot3](<screenshots/Screenshot3 Task2 Assign3.png>)
 
 
@@ -116,19 +109,16 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task3 Assign3.png>)
 
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task3 Assign3.png>)
 
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
 ![Screenshot3](<screenshots/Screenshot3 Task3 Assign3.png>)
 
 
@@ -167,25 +157,21 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task4 Assign3.png>)
 
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task 4 Assign3.png>)
 
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
 ![Screenshot3](<screenshots/Screenshot3 Task4 Assign3.png>)
 
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
 ![Screenshot4](<screenshots/Screenshot4 Task4 Assign3.png>)
 
 
@@ -215,19 +201,16 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task5 Assign3.png>)
 
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task5 Assign3.png>)
 
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
 ![Screenshot3](<screenshots/Screenshot3 Task5 Assign3....png>)
 
 ### Notes
@@ -251,19 +234,16 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task6 Assign3.png>)
 
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task6 Assign3.png>)
 
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
 ![Screenshot3](<screenshots/Screenshot3 task6 Assign3.png>)
 
 
@@ -304,13 +284,11 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 task7 Assign3.png>)
 
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task7 Assign3.png>)
 
 
@@ -395,7 +373,6 @@ https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-cloudcomputing-aws-u
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
 ![Screenshot](<screenshots/Linedind postshot For Assign3.png>)
 
 

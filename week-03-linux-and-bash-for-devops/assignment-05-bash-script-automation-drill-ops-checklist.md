@@ -20,13 +20,11 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task1 Assignment5.png>)
 
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task1 Assignment5.png>)
 
 
@@ -56,19 +54,16 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task2 Assign5.png>)
 
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task2 Assign5.png>)
 
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
 ![Screenshot3](<screenshots/Screenshot3 Task2 Assign5.png>)
 
 
@@ -98,13 +93,11 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 task3 Assign5.png>)
 
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task3 Assign5.png>)
 
 
@@ -134,13 +127,11 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task4 Assign5.png>)
 
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task4 Assign5.png>)
 
 
@@ -174,13 +165,11 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task5 Assign5.png>)
 
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task5 Assign5.png>)
 
 
@@ -214,13 +203,11 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task6 Assign5.png>)
 
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task6 Assign 5.png>)
 ![Screenshot2.1](<screenshots/Screenshot2 more Task6 Assign5.png>)
 
@@ -229,7 +216,6 @@ Add your screenshot here.
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
 ![Sxcreenshot3](<screenshots/Screenshot3 Task6 Assign5.png>)
 
 
@@ -263,7 +249,6 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task7 Assign5.png>)
 ![Screenshot2.1](<screenshots/Screenshot1 more Task7 Assign5.png>)
 
@@ -271,13 +256,11 @@ Add your screenshot here.
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task7 Assign5.png>)
 
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
 ![Screenshot3](<screenshots/Screenshot3 Task7 Assign5.png>)
 ![Screenshot3.1](<screenshots/Screenshot3 more Task7 Assign5.png>)
 
@@ -285,7 +268,6 @@ Add your screenshot here.
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
 ![Screenshot4](<screenshots/Screenshot4 Task7 Assign5.png>)
 
 
@@ -319,7 +301,6 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task8 Assign5.png>)
 ![Screenshot1.1](<screenshots/Screenshot1 more task8 Assign5.png>)
 
@@ -327,13 +308,11 @@ Add your screenshot here.
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task8 Assign 5.png>)
 
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
 ![Screenshot3](<screenshots/Screenshot3 Task8 Assign5.png>)
 
 
@@ -371,7 +350,6 @@ https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-linux-bashscripting-
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
 ![Screenshot](<screenshots/Linkedin post for assign5 week3.png>)
 
 

@@ -20,13 +20,11 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-Add your screenshot here.
 ![Screenshot1](<screenshots/Screenshot1 Task1 Assign6.png>)
 
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Task1 Assign6.png>)
 
 
@@ -56,7 +54,6 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-Add your screenshot here.
 ![Screenshot3](<screenshots/Screenshot3 Task2 Assign6.png>)
 
 
@@ -114,25 +111,21 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
 ![Screenshot5](<screenshots/Screenshot5 Task4 Assign6.png>)
 
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
 ![Screenshot6](<screenshots/Screenshot6 Task4 Assign6.png>)
 
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
 ![Screenshot7](<screenshots/Screenshot7 Task4 Assign6.png>)
 
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
 ![Screenshot8](<screenshots/Screenshot8 Task4 Assign6.png>)
 
 
@@ -175,7 +168,6 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
 ![Screenshot10](<screenshots/Screenshot10 Task5 Assign.png>)
 
 
@@ -209,14 +201,12 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-Add your screenshot here.
 ![Screenshot11](<screenshots/Screenshot11 Task6 Assign6.png>)
 
 
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-Add your screenshot here.
 ![Screenshot12](<screenshots/Screenshot12 Task 6 Assign6.png>)
 
 
@@ -250,19 +240,16 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-Add your screenshot here.
 ![Screenshot13](<screenshots/Screenshot13 Task7 Assign6.png>)
 
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-Add your screenshot here.
 ![Screenshot14](<screenshots/Screenshot14 Task7 Assign6.png>)
 
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-Add your screenshot here.
 ![Screenshot15](<screenshots/Screenshot15 Task7 Assign6.png>)
 
 
@@ -300,13 +287,11 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-Add your screenshot here.
 ![Screenshot16](<screenshots/Screenshot16 Task8 Assign6.png>)
 /
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-Add your screenshot here.
 ![Screenshot17](<screenshots/screenshot17 Task8 Assign6.png>)
 ![Screenshot17.1](<screenshots/Screenshot17 more Task8 Assign6.png>)
 
@@ -314,13 +299,11 @@ Add your screenshot here.
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-Add your screenshot here.
 ![Screenshot18](<screenshots/Screenshot18 Task8 Assign6.png>)
 
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-Add your screenshot here.
 ![Screenshot19](<screenshots/Screenshot19 Task8 Assign6.png>)
 
 
@@ -400,7 +383,6 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
 ![Screenshot](<screenshots/Linkedin post Assign6 Week 3.png>)
 
 
