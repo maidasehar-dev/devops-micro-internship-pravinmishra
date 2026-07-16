@@ -375,10 +375,10 @@ Gather = Bash script execution (linux-triage.sh) collecting read-only evidence; 
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/maida-sehar-2ab997263_dmicohort3-devops-agenticai-ugcPost-7483581623951785984-l60R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q
 
-`https://www.linkedin.com/posts/maida-sehar-2ab997263_dmicohort3-devops-agenticai-ugcPost-7483581623951785984-l60R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q
-`
+
+
 
 
 #### Screenshot — Published LinkedIn post
@@ -388,9 +388,8 @@ Paste your LinkedIn post URL here:
 
 # GitHub Repository URL
 
-Paste the URL of your GitHub folder or repository containing the assignment files here:
+'https://github.com/maidasehar-dev/devops-micro-internship-pravinmishra/tree/main/week-03-linux-and-bash-for-devops`
 
-`https://github.com/maidasehar-dev/devops-micro-internship-pravinmishra/tree/main/week-03-linux-and-bash-for-devops`
 
 
 
