@@ -147,7 +147,7 @@ Separating each check into its own function makes the script modular, readable, 
 
 **4. What is the purpose of `$(...)` in this script?**
 
-$(...) is command substitution — it runs the command inside the parentheses and captures its output as a string, which can then be stored in a variable. For example, http_code=$(curl -s -o /dev/null -w "%{http_code}" http://localhost/) runs curl and stores the resulting HTTP status code in the http_code variable for later comparison.
+`$(...)` is command substitution it runs the command inside the parentheses and captures its output as a string, which can then be stored in a variable. For example, `http_code=$(curl -s -o /dev/null -w "%{http_code}" http://localhost/)` runs curl and stores the resulting HTTP status code in the `http_code` variable for later comparison.
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
@@ -288,7 +288,7 @@ Recover the service as the human operator and prove that the system is healthy a
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
 ![Screenshot16](<screenshots/Screenshot16 Task8 Assign6.png>)
-/
+
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
