@@ -91,7 +91,6 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
 ![Screenshot2](<screenshots/Screenshot2 Assignment 8 linkedin post.png>)
 ![Screenshot2](<screenshots/Screenshot2 Assignment 8 linkedin postB.png>)
 
