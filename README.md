@@ -3,7 +3,7 @@
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Pravin_Mishra-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-0%2F14-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-3%2F14-green?style=for-the-badge)
 
 > 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
 > Find all the required links & assignment guidelines from here [Required links](./dmi_cohort3_resources.md)
@@ -73,11 +73,11 @@ This is not a course. It is an internship-style program — real deployments, re
 Week 01 → Success Mindset 
 [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+Week 02 → Agentic AI with Claude Code 
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
 
-<!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+Week 03 → Linux & Bash for DevOps 
+[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
 <!-- Week 04 → Git & GitHub -->
 <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
@@ -133,8 +133,11 @@ Week 01 → Success Mindset
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_join-the-dmi-devops-micro-internship-share-7478820569543634944-7X8D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q`
  | https://maida-devops-journey.blogspot.com/2026/07/from-career-switcher-to-devops-engineer.html | https://maida-devops-journey.blogspot.com/2026/07/why-i-left-teaching-to-learn-devops.html|
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed |  ✅ solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_dmibypravinmishra-agenticai-claudecode-share-7481149187225595904-maw8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q' 
+| https://github.com/maidasehar-dev/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/reflection-week-2.md |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_dmicohort3-devops-agenticai-ugcPost-7483581623951785984-l60R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q'
+| https://maida-devops-journey.blogspot.com/2026/07/from-cloud-deployment-to-ai-assisted.html |
+
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |

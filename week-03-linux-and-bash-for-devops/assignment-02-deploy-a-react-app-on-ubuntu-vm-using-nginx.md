@@ -142,7 +142,7 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+``
 
 https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-cloudcomputing-aws-share-7482830246237372417-epo6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q
 

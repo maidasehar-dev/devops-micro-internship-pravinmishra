@@ -389,7 +389,7 @@ Leaving cloud resources running unnecessarily wastes money (even within free tie
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+``
 
 https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-cloudcomputing-aws-ugcPost-7483176417392943104-Pm6r/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q
 
