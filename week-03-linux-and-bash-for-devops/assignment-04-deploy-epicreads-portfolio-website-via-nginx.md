@@ -109,10 +109,6 @@ Verify the deployed website and Nginx service are healthy.
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-``
-
 https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-cloudcomputing-aws-share-7483234069191970816-puS1/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
