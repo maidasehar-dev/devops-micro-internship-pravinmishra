@@ -23,8 +23,6 @@ Take a screenshot of your interaction showing:
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
-
 ![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
 ![Task 1 Screenshot](screenshots/task-1.2-chatgpt.png)
 ![Task 1 Screenshot](screenshots/task-1.3-chatgpt.png)
@@ -93,8 +91,6 @@ EpicReads bookstore has two application versions:
 * Submit a screenshot or photo clearly showing your own drawing
 
 ## Diagram Screenshot / Photo
-
-Save your diagram image in the `screenshots` folder and update the file name below.
 
 ![Application Architecture Diagram](screenshots/task-3-diagram.png)
 
@@ -179,8 +175,6 @@ ls
 ⚠️ **Important:** The screenshot must show your username or another identifiable detail to confirm it is your environment.
 
 ## Screenshot
-
-Save your screenshot in the `screenshots` folder and update the file name below.
 
 ![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
 
