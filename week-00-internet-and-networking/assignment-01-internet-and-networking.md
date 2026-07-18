@@ -25,7 +25,14 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/task-1-chatgpt.png.png)
+![Task 1 Screenshot](screenshots/task-1.2-chatgpt.png.png)
+![Task 1 Screenshot](screenshots/task-1.3-chatgpt.png.png)
+![Task 1 Screenshot](screenshots/task-1.4-chatgpt.png.png)
+
+
+
+
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +41,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+Working with ChatGPT as a learning assistant showed me how useful it is for breaking down technical concepts into simple relatable analogies like comparing networking protocols to a phone conversation. I learned that a good prompt (specific and clear about what I want) makes a huge difference in getting a genuinely useful easy-to-understand explanation rather than an overly technical one.
 
 ---
 
@@ -59,7 +66,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When someone visits EpicReads.com from anywhere in the world, their browser breaks the request into small pieces called packets a process called packet switching allowing data to travel efficiently across different network paths. Each device including the Finland-based server has a unique IP address acting like a postal address so packets reach the right destination. The TCP/IP protocol suite governs this journey: IP handles addressing and routing while TCP ensures packets arrive complete and in order re-sending anything lost. Finally, HTTP/HTTPS defines the "language" the browser and server use to request and deliver the webpage, with HTTPS adding encryption for security. Together these layers let a user anywhere reliably load a website hosted in Finland within seconds.
 
 ---
 
@@ -91,7 +98,8 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/task-3-diagram.png.png)
+
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +110,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML, CSS, JavaScript
+* React, Angular
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js (Express)
+* Java (Spring Boot), .NET Core
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL, PostgreSQL
+* SQLite, MongoDB
 
 ---
 
@@ -142,7 +150,7 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) is essentially the internet's phonebook it translates human-friendly domain names like epicreads.com into the numeric IP addresses computers actually use to locate each other. Without DNS users would need to memorize IP addresses instead of simple domain names. To connect epicreads.com to the IP 52.172.142.222, an A record should be used since A records map a domain directly to an IPv4 address. This allows anyone typing epicreads.com into their browser to be automatically routed to the correct server regardless of the underlying numeric address.
 
 ---
 
@@ -178,7 +186,8 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](screenshots/task-5-vscode.png.png)
+
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -215,19 +224,45 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-micro-internship-dmi-cohort-3-activity-7465781007313448961-KgD6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q
 
-```text
-Add your URL here...
-```
+
 
 ---
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+🚀 Just completed my first step into the world of DevOps!
 
-Add your post content here...
+I recently finished the pre-requisite assignments for the DevOps Micro Internship (DMI) Cohort 3 by @Pravin Mishra and honestly, it was quite a learning journey for someone who started from scratch!
+
+Here's what I worked on:
+
+🤖 Task 1 — ChatGPT as a Learning Tool
+Learned how to write clear and detailed prompts to get the best answers from AI. This skill alone will help me throughout my DevOps journey!
+
+🌐 Task 2 — Internet & Networking Basics
+Understood how data travels across the internet using Packet Switching, IP Addresses, TCP/IP and HTTP/HTTPS. Explained it through a real scenario — how a bookstore website hosted in Finland can be accessed globally!
+
+🏗️ Task 3 — Application Architecture
+Explored the difference between:
+• 2-tier architecture — Frontend directly connected to Database
+• 3-tier architecture — Frontend → Backend → Database
+Created diagrams using draw.io showing each layer with real tools like React, Node.js and MongoDB
+
+🌍 Task 4 — Domain Name & DNS
+Discovered how DNS works like a phone book for the internet — translating domain names into IP addresses so browsers can find websites!
+
+💻 Task 5 — VS Code Setup
+Set up my development environment, explored terminal commands and customized my workspace. Ready to code!
+
+hashtag#DevOps hashtag#DMICohort3 hashtag#Learning hashtag#Networking hashtag#CloudComputing hashtag#Tech 
+
+"P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community: https://lnkd.in/ebB9mHCD"
+DMI Cohort 3: https://lnkd.in/eXKqp888
+Pravin Mishra Profile: https://lnkd.in/eKE3DDek
+
+
 
 ---
 
@@ -235,19 +270,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Setting up VS Code and running basic terminal commands felt straightforward since I was already somewhat familiar with the interface. Using ChatGPT to break down technical concepts was also intuitive once I understood how to write a clear specific prompt.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Explaining networking concepts like packet switching, TCP/IP, and DNS in my own words rather than just repeating definitions took more thought than I expected. Connecting the theory (how packets travel, how DNS resolves names) to a real-world scenario like EpicReads required genuinely understanding the concepts, not just memorizing them.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I want to get faster at troubleshooting independently before asking for help and build a habit of verifying documentation myself rather than assuming tutorials are always up to date. Next week focuses on mindset and goal-setting so I also want to bring that same discipline into building consistent habits early in this internship.
 
 ---
 
