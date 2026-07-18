@@ -134,7 +134,6 @@ Week 03 → Linux & Bash for DevOps
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_join-the-dmi-devops-micro-internship-share-7478820569543634944-7X8D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q | https://maida-devops-journey.blogspot.com/2026/07/from-career-switcher-to-devops-engineer.html | https://maida-devops-journey.blogspot.com/2026/07/why-i-left-teaching-to-learn-devops.html |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_dmibypravinmishra-agenticai-claudecode-share-7481149187225595904-maw8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q | https://github.com/maidasehar-dev/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/reflection-week-2.md |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_dmicohort3-devops-agenticai-ugcPost-7483581623951785984-l60R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q | https://maida-devops-journey.blogspot.com/2026/07/from-cloud-deployment-to-ai-assisted.html |
-
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
