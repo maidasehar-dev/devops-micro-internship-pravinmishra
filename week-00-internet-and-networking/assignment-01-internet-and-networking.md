@@ -258,9 +258,7 @@ Set up my development environment, explored terminal commands and customized my 
 
 hashtag#DevOps hashtag#DMICohort3 hashtag#Learning hashtag#Networking hashtag#CloudComputing hashtag#Tech 
 
-"P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community: https://lnkd.in/ebB9mHCD"
-DMI Cohort 3: https://lnkd.in/eXKqp888
-Pravin Mishra Profile: https://lnkd.in/eKE3DDek
+"P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community: https://discord.pravinmishra.com/"
 
 
 
