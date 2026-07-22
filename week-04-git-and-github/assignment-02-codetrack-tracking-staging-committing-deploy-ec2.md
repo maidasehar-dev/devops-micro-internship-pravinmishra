@@ -20,15 +20,17 @@ Confirm that Git works and that you are inside the correct `CodeTrack` repositor
 
 #### Screenshot 1 — Output of `pwd` showing you're inside `CodeTrack`
 
-Add your screenshot here.
+![Screenshot1](<screenshots/Screensho1 Task1 Assign2 Week4.png>)
 
----
+
+
 
 #### Screenshot 2 — Output of `git status` showing no "not a git repository" error
 
-Add your screenshot here.
+![Screenshot2](<screenshots/Screenshot2 Task1 Assign2 Week4.png>)
 
----
+
+
 
 # Task 2 — Create index.html and style.css
 
@@ -40,9 +42,10 @@ Create the two starter UI files inside `CodeTrack`.
 
 #### Screenshot 3 — Output of `ls` showing `index.html` and `style.css`
 
-Add your screenshot here.
+![Screenshot3](<screenshots/Screenshot3 Task2 Assign2 Week4.png>)
 
----
+
+
 
 # Task 3 — Add Starter Content
 
@@ -53,10 +56,12 @@ Copy the provided starter HTML and CSS content into your local `index.html` and 
 ### Evidence
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`
+![Screenshot4.1](<screenshots/Screenshot4.1 Task 3 Assign2 Week4.png>)
+![Screenshot4.2](<screenshots/Screenshot4.2 Task3 Assign2 Week4.png>)
 
-Add your screenshot here.
 
----
+
+
 
 # Task 4 — Track and Stage Files Correctly
 
@@ -68,15 +73,17 @@ Confirm both files show as untracked, then stage them individually with `git add
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
 
-Add your screenshot here.
+![Screenshot5](<screenshots/Screenshot5 Task4 Assign2 Week4.png>)
 
----
+
+
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
 
-Add your screenshot here.
+![Screenshot6](<screenshots/Screenshot6 Task4 Assign2 Week4.png>)
 
----
+
+
 
 # Task 5 — Create the First Commit (Clean Initial Commit)
 
@@ -88,15 +95,17 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+![Screenshot7](<screenshots/Screenshot7 Task 5 Assign2 Week 4.png>)
 
----
+
+
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
 
-Add your screenshot here.
+![Screenshot8](<screenshots/Screenshot8 Task5 Assign2 Week4.png>)
 
----
+
+
 
 # Task 6 — Modify index.html and Create a Second Commit
 
@@ -108,27 +117,30 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 9 — Browser showing the updated page with your Student Name and Group Name visible
 
-Add your screenshot here.
+![Screenshot9](<screenshots/Screenshot9 Task6 Assign2 Week4.png>)
 
----
+
+
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
+![Screenshot10](<screenshots/Screenshot10 Task6 Assign2 Week4.png>)
 
----
+
+
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+![Screenshot11](<screenshots/Screenshot11 Task6 Assign2 Week4.png>)
 
----
+
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
-Add your screenshot here.
+![Screenshot12](<screenshots/Screenshot12 Task6 Assign2 Week4.png>)
 
----
+
+
 
 # Task 7 — Deploy to EC2 with Nginx (Static Website)
 
@@ -140,21 +152,25 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot 13 — Output of `systemctl status nginx --no-pager` showing Nginx `active (running)`
 
-Add your screenshot here.
+![Screenshot13](<screenshots/Screenshot 13 Task7 Assign2 Week4.png>)
 
----
+
+
+
 
 #### Screenshot 14 — Output of `curl -I http://localhost` showing `HTTP/1.1 200 OK`
 
-Add your screenshot here.
+![Screenshot14](<screenshots/Screenshot14 Task7 Assign2 Week4.png>)
 
----
+
+
 
 #### Screenshot 15 — Browser showing the CodeTrack site loaded at `http://<EC2_PUBLIC_IP>`, with your Full Name and Group Name visible
 
-Add your screenshot here.
+![Screenshot15](<screenshots/Screenshot15 Task7 Assign2 Week4.png>)
 
----
+
+
 
 # LinkedIn Post (Required)
 
@@ -162,17 +178,17 @@ Add your screenshot here.
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-git-github-share-7485724597561163776-qBbc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q
 
-`Add your URL here`
-
----
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-Add your screenshot here.
+![Screenshot](<screenshots/Linkedin post week4 Assign2.png>)
 
----
+
+
+
+
 
 # Submission Instructions
 
@@ -185,14 +201,14 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] `CodeTrack` repository verified with `git status` (Screenshots 1–2)
-- [ ] `index.html` and `style.css` created and populated (Screenshots 3–4)
-- [ ] Starter files staged and committed in the first commit (Screenshots 5–8)
-- [ ] Student Name and Group Name updated in `index.html` (Screenshot 9)
-- [ ] Second controlled commit created (Screenshots 10–12)
-- [ ] Nginx active on the EC2 instance and CodeTrack reachable via its public IP (Screenshots 13–15)
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [x] `CodeTrack` repository verified with `git status` (Screenshots 1–2)
+- [x] `index.html` and `style.css` created and populated (Screenshots 3–4)
+- [x] Starter files staged and committed in the first commit (Screenshots 5–8)
+- [x] Student Name and Group Name updated in `index.html` (Screenshot 9)
+- [x] Second controlled commit created (Screenshots 10–12)
+- [x] Nginx active on the EC2 instance and CodeTrack reachable via its public IP (Screenshots 13–15)
+- [x] LinkedIn post published and URL submitted
+- [x] No sensitive data exposed
 
 ---
 
