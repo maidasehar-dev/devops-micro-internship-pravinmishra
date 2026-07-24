@@ -195,35 +195,36 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
-Add your screenshot here.
+![Screenshot9](<screenshots/Screenshot9 Task6 Assign6 Week4.png>)
 
----
+
+
 
 #### PR Link
 
-Add your PR URL here...
+https://github.com/maidasehar-dev/devops-micro-internship-pravinmishra/pull/1
 
----
+
 
 ### Notes
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
+I kept the core structure of Claude's original draft (Summary, Before merge note), but added a new "Bugs found and fixed along the way" section documenting three real issues I discovered and resolved after the initial draft was generated: the executable-bit problem Claude flagged, plus two bugs I found myself while actually trying to commit — the hook's broken handling of filenames with spaces, and a false-positive regex match on my own documentation text. I also added a checked test plan to make the PR easier for a reviewer to verify at a glance. I edited it because the AI's draft was generated before I'd actually resolved everything, so it didn't yet reflect the final, fully-debugged state of the work.
 
----
+
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
 
-Add your answer here.
+If I'd copy-pasted the draft immediately after Task 4's first run (when the risky key was still in the code), the PR description would have described a script that still contained an exposed credential — misleading anyone reviewing it. Even the corrected draft from Task 5 didn't yet account for the executable-bit bug, the space-handling bug, or the markdown false-positive, since those were discovered after that draft was generated. Blindly using it would have resulted in an inaccurate, incomplete PR description that didn't reflect what was actually being submitted — exactly the risk of treating AI output as a final answer instead of a draft requiring human review.
 
----
+
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.
+This assignment's files — the intentionally risky test script, the pre-commit hook, and the Claude Code skill — are personal practice artifacts demonstrating this specific exercise, not a contribution intended for the shared class repository that all cohort members submit their actual coursework to. Opening this PR against upstream would incorrectly propose merging demonstration/testing files into the shared, canonical repo that Pravin and other students rely on. Targeting my own fork keeps this practice work correctly scoped to my personal copy.
 
----
+
 
 # Task 7 — Map the Workflow to the Agentic Loop
 
@@ -235,33 +236,33 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **1. Which step(s) represent Gather?**
 
-Add your answer here.
+Gather is represented by the read-only inspection steps throughout this assignment: the pre-commit hook running git diff --cached and git cat-file to collect information about staged files, and the /pr-ready skill running git status and git diff --cached to see what's currently staged. Both tools are purely collecting evidence about the state of the repository before any judgment is made.
 
----
+
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
+Analyze happens in two distinct ways: the pre-commit hook's fixed-rule pattern matching (checking staged content against the secret regex and file size threshold) is a simple, deterministic form of analysis, while the /pr-ready skill's review — reasoning about debug statements, missing documentation, mixed changes, and even catching the executable-bit issue — represents a much richer, context-aware form of analysis that a fixed rule alone couldn't perform.
 
----
+
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
+Human Act is every state-changing action I personally performed: editing scripts/notify.sh to remove the secret and debug statement, fixing the hook's space-handling bug, adjusting the markdown to avoid the false positive, running git commit, git push, and manually creating the Pull Request with an edited description. These must be done by a human because they permanently change shared, external state (the Git history and GitHub itself) — the AI skill was deliberately restricted from ever taking these actions, ensuring a human always makes the final, accountable decision about what actually gets committed and shared.
 
----
+
 
 **4. Which step is Verify?**
 
-Add your answer here.
+Verify is the re-running of both gates after making fixes: running git commit again to confirm the pre-commit hook now passes cleanly (no BLOCKED message), and re-running /pr-ready to confirm it reports a clean risk assessment. This step proves the fixes actually worked, rather than just assuming they did.
 
----
+
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
+The fixed-rule hook provides fast, 100% consistent, unbypassable blocking for the specific, known-dangerous patterns it's programmed to detect — but this assignment proved it has real limitations (it can be tricked by unexpected filenames, and it can't reason about context like debug statements or missing documentation). The AI skill fills that gap with contextual judgment, but as a read-only advisor rather than an enforcer, it can be ignored or misread — so combining both gives you both guaranteed enforcement for known risks and broader, reasoning-based review for everything else.
 
----
+
 
 # Task 8 — LinkedIn Post
 
@@ -273,17 +274,17 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
+https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-git-github-share-7486482415113355264-qNbs/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q
 
----
+
 
 ## Key Learnings
 
-Add 3-5 bullet points on what you learned this week.
-
--
--
--
+- Fixed rules and AI judgment solve different problems — a pre-commit hook is fast and unbypassable for exactly what it's programmed to catch, but has zero understanding of context, while an AI skill can reason about nuance but should never act autonomously on shared state.
+- AI-assisted review can catch real bugs a human might miss — `/pr-ready` flagged that my own pre-commit hook had silently lost its executable bit when staged, a genuine bug that would have made the hook do nothing for anyone cloning the branch fresh.
+- "Human Act" isn't just a safety rule, it's necessary in practice — debugging the hook's space-handling failure and a markdown false-positive required real troubleshooting that no amount of AI drafting could substitute for.
+- Never trust an AI's first draft blindly — the PR description Claude drafted became outdated the moment I found and fixed two more bugs afterward, reinforcing that AI output is a starting point for review, not a final answer.
+- Hitting genuine, unplanned bugs (space-handling, executable bits, regex false positives) and having to diagnose and fix them taught me far more about Git internals and Bash scripting than a clean walkthrough ever could.
 
 ---
 
@@ -301,27 +302,25 @@ Add 3-5 bullet points on what you learned this week.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+https://github.com/maidasehar-dev/devops-micro-internship-pravinmishra
 
-`Add your URL here`
 
----
 
 # Completion Checklist
 
-- [ ] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
-- [ ] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
-- [ ] `core.hooksPath` configured to point at `hooks/`
-- [ ] Pre-commit hook shown blocking the risky commit
-- [ ] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
-- [ ] `/pr-ready` run against the risky diff and shown flagging issues
-- [ ] Risky file fixed; `git commit` succeeds cleanly
-- [ ] `/pr-ready` re-run showing a clean report and drafted PR title/description
-- [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
-- [ ] Agentic Loop mapping (Task 7) completed in your own words
-- [ ] LinkedIn post published and URL submitted
-- [ ] All required screenshots added
-- [ ] GitHub repository URL provided
+- [x] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
+- [x] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
+- [x] `core.hooksPath` configured to point at `hooks/`
+- [x] Pre-commit hook shown blocking the risky commit
+- [x] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
+- [x] `/pr-ready` run against the risky diff and shown flagging issues
+- [x] Risky file fixed; `git commit` succeeds cleanly
+- [x] `/pr-ready` re-run showing a clean report and drafted PR title/description
+- [x] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
+- [x] Agentic Loop mapping (Task 7) completed in your own words
+- [x] LinkedIn post published and URL submitted
+- [x] All required screenshots added
+- [x] GitHub repository URL provided
 
 ---
 
