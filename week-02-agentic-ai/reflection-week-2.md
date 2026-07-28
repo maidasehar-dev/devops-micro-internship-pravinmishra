@@ -27,4 +27,7 @@ My highlight was debugging the hooks assignment. My PreToolUse and PostToolUse h
 
 ---
 
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). Learn more about the program at [dmi.pravinmishra.com](https://dmi.pravinmishra.com). You can start your DevOps journey by joining the [DMI waiting list](https://forms.gle/3hvrWJBDzsDeJoPs6). Check out my progress on my [DMI badge page](https://dmi.pravinmishra.com/s/maidasehar-dev.html).
+
 *This reflection is part of the DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+
