@@ -20,9 +20,9 @@ Create or access your Jira Cloud account and reach the Jira Software workspace s
 
 #### Screenshot 1 — Jira welcome page, dashboard, or main workspace after successful login, with your name or avatar visible
 
-Add your screenshot here.
+![Screenshot1](<screenshots/Screenshot 1 Task1 Assign5 Week 5.png>)
 
----
+
 
 # Task 2 — Verify Your Atlassian Account
 
@@ -34,9 +34,8 @@ Confirm your email address if Atlassian requests verification.
 
 #### Screenshot 2 (if applicable) — Confirmation screen after email verification, or the inbox showing the Atlassian verification email subject
 
-Add your screenshot here.
+![Screenshot2](<screenshots/Screenshot2 Task2 Assign5 Week 5.png>)
 
----
 
 ### Notes
 
@@ -44,9 +43,8 @@ If you signed up with Google and no separate email verification was required, in
 
 > I signed up using Google, and Atlassian did not require separate email verification.
 
-Add any additional notes here.
+I signed up for Atlassian using my email address. After completing the sign-up process, Atlassian sent a verification code to my inbox. I entered the code to verify my account and proceeded with setup. Screenshot 2 shows the verification email received from Atlassian, with the code and email address blurred for privacy.
 
----
 
 # Task 3 — Set Up Your Professional Jira Profile
 
@@ -58,9 +56,10 @@ Update your Jira profile with your full name, a job title or role (e.g. "Aspirin
 
 #### Screenshot 3 — Updated profile page showing your full name, role/title, and bio
 
-Add your screenshot here.
+![Screenshot3.1](<screenshots/Screenshot3a Task3 Assign5 Week5.png>)
+![Screenshot3.2](<screenshots/Screenshot3b Task3 Assign5 Week5.png>)
 
----
+
 
 # Task 4 — Explore the Jira Dashboard and Projects
 
@@ -72,15 +71,14 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 
 #### Screenshot 4 — "View all projects" page showing at least one project
 
-Add your screenshot here.
+![Screenshot4](<screenshots/Screenshot4 Task4 Assign5 Week5.png>)
 
----
+
 
 #### Screenshot 5 — Opened project showing either the Board or Backlog screen
 
-Add your screenshot here.
+![Screenshot5](<screenshots/Screenshot5 Task5 Assign5 Week5.png>)
 
----
 
 # Submission Instructions
 
