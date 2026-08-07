@@ -20,15 +20,14 @@ Create the footer Story (`Add footer with version and deploy date`, 1 point, `fr
 
 #### Screenshot 1 — Sprint 1 created with the Story inside it
 
-Add your screenshot here.
+![Screenshot1](<screenshots/Screenshot1 Task1 Assign3 Week5.png>)
 
----
 
 #### Screenshot 2 — Active Sprint board showing the Sprint Goal
 
-Add your screenshot here.
+![Screensshot2](<screenshots/Screenshot2 Task1 Assign3 Week5.png>)
+![Screenshot2.1](<screenshots/Screenshot2.1 Task1 Assign3 Week5.png>)
 
----
 
 # Task 2 — Day 1: Implement the Footer, Commit, and Deploy
 
@@ -40,27 +39,23 @@ Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD 
 
 #### Screenshot 3 — Jira board showing the Day 1 Sub-task in Done
 
-Add your screenshot here.
+![Screenshot3](<screenshots/Screenshot3 Task 2 Assign3 Week5.png>)
 
----
 
 #### Screenshot 4 — Successful Git commit output
 
-Add your screenshot here.
+![Screenshot4](<screenshots/Screenshot4 Task2Assign3 Week5.png>)
 
----
 
 #### Screenshot 5 — EC2 browser view showing the complete footer text, with the URL visible
 
-Add your screenshot here.
+![Screenshot5](<screenshots/Screenshot5 Task 2 Assign3 Week5.png>)
 
----
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
-Add your screenshot here.
+![Screenshot6](<screenshots/Screenshot6 Task 2 Assign3 Week5.png>)
 
----
 
 # Task 3 — Day 2: Make the Deploy Date Dynamic and Document It
 
@@ -72,27 +67,23 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 #### Screenshot 7 — Code editor showing the footer and date logic or deployment-time template snippet
 
-Add your screenshot here.
+![Screenshot7](<screenshots/Screenshot7 Task3 Assign3 Week5.png>)
 
----
 
 #### Screenshot 8 — EC2 browser view showing the updated footer with the current date
 
-Add your screenshot here.
+![Screenshot8](<screenshots/Screenshot8 Task3 Assign3 Week5.png>)
 
----
 
 #### Screenshot 9 — README snippet documenting the footer and date behavior
 
-Add your screenshot here.
+![Screenshot9](<screenshots/Screenshot9 Task3 Assign3 Week4.png>)
 
----
 
 #### Screenshot 10 — Jira Story comment showing the Day 2 Daily Scrum update
 
-Add your screenshot here.
+![Screenshot10](<screenshots/Screenshot10 Task3 Assign3 Week5.png>)
 
----
 
 # Task 4 — Day 3: Polish the Footer and Validate Accessibility
 
@@ -104,21 +95,19 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 11 — Desktop EC2 view showing the polished footer
 
-Add your screenshot here.
+![Screenshot11](<screenshots/Screenshot11  Task4 Assign3 Week5.png>)
 
----
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
-Add your screenshot here.
+![Screenshot12](<screenshots/Screenshot12 Task4 Assign3 Week5.png>)
 
----
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
-Add your screenshot here.
+![Screenshot13](<screenshots/Screenshot13 Task4 Assign3 Week5.png>)
 
----
+
 
 # Task 5 — Day 4: Change the Homepage Tagline / Call-to-Action
 
@@ -130,9 +119,9 @@ Replace the existing homepage tagline with the required DMI Website call-to-acti
 
 #### Screenshot 14 — EC2 browser view showing "Start your DevOps Journey here" and the clickable "Visit the DMI Website" link
 
-Add your screenshot here.
+![Screenshot14](<screenshots/Screenshot14 Task5 Assign3 Week 5.png>)
 
----
+
 
 # Task 6 — Day 5: Demo, Retrospective, and Burndown
 
@@ -144,29 +133,23 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 #### Screenshot 15 — Burndown Chart for Sprint 1
 
-Add your screenshot here.
+![Screenshot15](<screenshots/Screenshot15 Task6 Assign3 Week5.png>)
 
----
 
 #### Screenshot 16 — Jira retrospective comment
 
-Add your screenshot here.
+![Screenshot16](<screenshots/Screenshot16 Task6 Assign3 Week5.png>)
 
----
 
 #### Screenshot 17 — Final EC2 browser view showing the complete footer requirement
 
-Add your screenshot here.
+![Screenshot17](<screenshots/Screenshot17 Task6 Assign3 Week5.png>)
 
----
 
 #### Demo Video URL
 
-Paste your unlisted YouTube or accessible Google Drive demo-video link here:
+https://drive.google.com/file/d/1yvNdd8aF6D2L6E9GR-N1d2pDEWQzp6b0/view?usp=sharing
 
-`Add your URL here`
-
----
 
 # LinkedIn Post (Required)
 
@@ -178,17 +161,13 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/maida-sehar-2ab997263_jira-git-aws-share-7491531164961292288-RvNT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q
 
-`Add your URL here`
-
----
 
 #### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
-Add your screenshot here.
+![Screenshot1](<screenshots/Linkedin Post fo assign3 Week5.png>)
 
----
 
 # Submission Instructions
 
@@ -204,17 +183,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Sprint 1 started with the required Sprint Goal (Screenshots 1 & 2)
-- [ ] Task 2: Day 1 footer implemented, committed, and deployed (Screenshots 3–6)
-- [ ] Task 3: Day 2 deploy date made dynamic and documented (Screenshots 7–10)
-- [ ] Task 4: Day 3 footer polished and validated on desktop and mobile (Screenshots 11–13)
-- [ ] Task 5: Day 4 DMI Website call-to-action deployed and clickable (Screenshot 14)
-- [ ] Task 6: Day 5 demo, retrospective, and Burndown evidence completed (Screenshots 15–17, video URL)
-- [ ] Daily Scrum comments posted for Days 1–5
-- [ ] LinkedIn post published with the GitHub URL, EC2 URL, required delivery details, and proof image
-- [ ] LinkedIn Post URL and LinkedIn Screenshot 1 included
-- [ ] Full Name visible in required screenshots
-- [ ] No sensitive data exposed
+- [x] Task 1: Sprint 1 started with the required Sprint Goal (Screenshots 1 & 2)
+- [x] Task 2: Day 1 footer implemented, committed, and deployed (Screenshots 3–6)
+- [x] Task 3: Day 2 deploy date made dynamic and documented (Screenshots 7–10)
+- [x] Task 4: Day 3 footer polished and validated on desktop and mobile (Screenshots 11–13)
+- [x] Task 5: Day 4 DMI Website call-to-action deployed and clickable (Screenshot 14)
+- [x] Task 6: Day 5 demo, retrospective, and Burndown evidence completed (Screenshots 15–17, video URL)
+- [x] Daily Scrum comments posted for Days 1–5
+- [x] LinkedIn post published with the GitHub URL, EC2 URL, required delivery details, and proof image
+- [x] LinkedIn Post URL and LinkedIn Screenshot 1 included
+- [x] Full Name visible in required screenshots
+- [x] No sensitive data exposed
 
 ---
 

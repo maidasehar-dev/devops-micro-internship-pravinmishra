@@ -92,13 +92,13 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 
 # Completion Checklist
 
-- [ ] Task 1: Jira Software Cloud account created or existing account accessed (Screenshot 1)
-- [ ] Task 2: Email verification completed, or a Google sign-in note included (Screenshot 2 or Notes)
-- [ ] Task 3: Professional profile updated with full name, role/title, and bio (Screenshot 3)
-- [ ] Task 4: Projects page, Board or Backlog, and Project settings explored without making changes (Screenshots 4 & 5)
-- [ ] No Jira issues created
-- [ ] Full Name visible in required screenshots
-- [ ] No sensitive data exposed
+- [x] Task 1: Jira Software Cloud account created or existing account accessed (Screenshot 1)
+- [x] Task 2: Email verification completed, or a Google sign-in note included (Screenshot 2 or Notes)
+- [x] Task 3: Professional profile updated with full name, role/title, and bio (Screenshot 3)
+- [x] Task 4: Projects page, Board or Backlog, and Project settings explored without making changes (Screenshots 4 & 5)
+- [x] No Jira issues created
+- [x] Full Name visible in required screenshots
+- [x] No sensitive data exposed
 
 ---
 
