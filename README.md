@@ -135,7 +135,7 @@ Week 05 → DevOps Lifecycle & Agile
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_dmibypravinmishra-agenticai-claudecode-share-7481149187225595904-maw8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q | https://github.com/maidasehar-dev/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/reflection-week-2.md |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_dmicohort3-devops-agenticai-ugcPost-7483581623951785984-l60R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q | https://maida-devops-journey.blogspot.com/2026/07/from-cloud-deployment-to-ai-assisted.html |
 | 04 | Git & GitHub | ✅ Completed  | ✅ Solved  | https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-git-github-share-7486482415113355264-qNbs/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q | https://maida-devops-journey.blogspot.com/2026/07/version-control-branches-and-little-ai.html |
-| 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved  | — | — |
+| 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved  | https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-agile-scrum-share-7491854268983910400-7D9j/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q | https://maida-devops-journey.blogspot.com/2026/08/from-jira-tickets-to-live-deployments.html |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
