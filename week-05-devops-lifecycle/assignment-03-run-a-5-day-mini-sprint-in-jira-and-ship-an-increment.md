@@ -108,7 +108,6 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 ![Screenshot13](<screenshots/Screenshot13 Task4 Assign3 Week5.png>)
 
 
-
 # Task 5 — Day 4: Change the Homepage Tagline / Call-to-Action
 
 ## Goal
@@ -120,7 +119,6 @@ Replace the existing homepage tagline with the required DMI Website call-to-acti
 #### Screenshot 14 — EC2 browser view showing "Start your DevOps Journey here" and the clickable "Visit the DMI Website" link
 
 ![Screenshot14](<screenshots/Screenshot14 Task5 Assign3 Week 5.png>)
-
 
 
 # Task 6 — Day 5: Demo, Retrospective, and Burndown
