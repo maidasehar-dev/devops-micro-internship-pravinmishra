@@ -30,9 +30,9 @@ In the Billing Dashboard, create a monthly Cost Budget with a name, amount, and 
 
 #### Screenshot 1 — AWS Budget setup page showing the budget name, budget amount, and alert thresholds
 
-Add your screenshot here.
+![Screenshot1](<screenshots/Screenshot1 Task 2 Assign6 week 6.png>)
 
----
+
 
 ### Notes
 
@@ -40,9 +40,8 @@ Answer the following in your own words:
 
 **1. Why is it important to set up budget alerts when using an AWS account?**
 
-Write your answer here.
+Budget alerts are important because AWS pricing is usage-based and can scale up quickly without warning especially when experimenting with services like EC2, RDS, or data transfer, where costs can accumulate silently if an instance is left running or a resource isn't properly cleaned up. Without alerts, it's easy to only discover overspending when the monthly bill arrives, by which point the damage is already done. Setting thresholds at 50%, 80%, and 100% gives early warning at multiple stages, so I can investigate and stop unexpected charges (like an idle EC2 instance) before they turn into a large, unwelcome bill. This is especially critical on a Free Tier account, where certain usage limits are easy to accidentally exceed.
 
----
 
 # Submission Instructions
 
@@ -53,13 +52,13 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] AWS Free Tier account created and Basic Support Plan (Free) selected
-- [ ] Logged in to the AWS Management Console
-- [ ] Monthly Cost Budget created with name, amount, and start month
-- [ ] Budget alert thresholds and notification email configured
-- [ ] Screenshot captured showing budget name, amount, and thresholds (Screenshot 1)
-- [ ] Notes question answered
-- [ ] No sensitive billing or account information exposed
+- [x] AWS Free Tier account created and Basic Support Plan (Free) selected
+- [x] Logged in to the AWS Management Console
+- [x] Monthly Cost Budget created with name, amount, and start month
+- [x] Budget alert thresholds and notification email configured
+- [x] Screenshot captured showing budget name, amount, and thresholds (Screenshot 1)
+- [x] Notes question answered
+- [x] No sensitive billing or account information exposed
 
 ---
 
