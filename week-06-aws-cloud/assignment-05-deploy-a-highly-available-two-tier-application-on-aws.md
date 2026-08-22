@@ -31,7 +31,6 @@ Build a VPC (10.0.0.0/16) with two public and two private subnets across two Ava
 ![Screenshot2](<screenshots/Screenshot2 Task1 Assign5 Week6 org.png>)
 
 
-
 #### Screenshot 3 — Public route table showing the Internet Gateway route and both public-subnet associations
 
 ![Screenshot3A](<screenshots/Screenshot3A Task1 Assign5 Week6.png>)
@@ -71,7 +70,6 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 
 ![Screenshot7](<screenshots/Screenshot7 Task2 Assign5 Week6.png>)
-
 
 
 #### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
@@ -143,7 +141,6 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 ![Screenshot14](<screenshots/Screenshot14 Task5 Assign5 Week6.png>)
 
 
-
 # Task 6 — Create Auto Scaling Group (ASG) in 2 Public Subnets
 
 ## Goal
@@ -164,7 +161,6 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 ![Screenshot16](<screenshots/Screenshot16 Task6 Assig5 Week6.png>)
 
 
-
 # Task 7 — Configure App to Use RDS + Validate Read/Write
 
 ## Goal
@@ -183,7 +179,6 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 
 ![Screenshot18](<screenshots/Screenshot18 Task 7 Assign5 Week6.png>)
-
 
 
 # Task 8 — High Availability Tests (Must Do Both)
