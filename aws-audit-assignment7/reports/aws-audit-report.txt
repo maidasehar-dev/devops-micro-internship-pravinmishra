@@ -1,0 +1,32 @@
+AWS Security & Cost Audit - Maida Sehar - Mon Aug 24 19:31:05 RDT 2026
+======================================
+
+[1] S3 Public Access Block Status
+WARN - pravin-portfolio-maidasehar-eu-north-1 - public access block not fully enabled
+  Evidence: {
+    "PublicAccessBlockConfiguration": {
+        "BlockPublicAcls": false,
+        "IgnorePublicAcls": false,
+        "BlockPublicPolicy": false,
+        "RestrictPublicBuckets": false
+    }
+}
+
+[2] SSH Port 22 Open to 0.0.0.0/0
+PASS - no security groups expose port 22 to 0.0.0.0/0
+
+[3] MySQL Port 3306 Open to 0.0.0.0/0
+PASS - no security groups expose port 3306 to 0.0.0.0/0
+
+[4] RDS PubliclyAccessible Status
+FAIL - book-review-db - publicly accessible
+PASS - epicbook-db - not publicly accessible
+
+[5] EBS Volume Encryption Status
+WARN - vol-06aacbf1ee74fbd6b - not encrypted
+WARN - vol-0861bb20dcff805e6 - not encrypted
+WARN - vol-012aababa84e67930 - not encrypted
+WARN - vol-0481d46ed3cd92cf3 - not encrypted
+WARN - vol-0aa86c5ad77764a2c - not encrypted
+WARN - vol-0be0ddc495af91a59 - not encrypted
+ Audit complete. Report written to reports/aws-audit-report.txt
