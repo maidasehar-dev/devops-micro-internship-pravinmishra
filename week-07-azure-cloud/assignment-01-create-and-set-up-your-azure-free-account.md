@@ -30,23 +30,21 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![Screenshot1](<screenshots/Screenshot1 Assign1 Week7 Task5.png>)
 
----
+
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![Screenshot2](<screenshots/Screenshot2 Task5 Assign1 Week7.png>)
 
----
 
 ### Notes
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to start with Azure Virtual Machines and Azure Storage, since these map directly to the AWS EC2 and S3 work I completed in Week 6, giving me a natural point of comparison for how Azure structures compute and storage. From there, I'll explore Azure Virtual Network (VNet) and Load Balancer, since Week 7's assignments build toward a three-tier architecture similar to the AWS VPC work — understanding how Azure's networking primitives differ from AWS's will be the key learning curve. I'm also looking forward to Azure Database for MySQL and the Azure CLI, to see how closely the workflow patterns from this week's AWS CLI/Bash audit script translate to Azure's own tooling.
 
----
 
 # Submission Instructions
 
@@ -57,12 +55,12 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Azure Free Account created with identity, phone, and payment verification completed
-- [ ] Microsoft Agreement and Offer Terms accepted
-- [ ] Azure Portal accessed successfully (Screenshot 1)
-- [ ] Free Trial subscription confirmed (Screenshot 2)
-- [ ] Reflection paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [x] Azure Free Account created with identity, phone, and payment verification completed
+- [x] Microsoft Agreement and Offer Terms accepted
+- [x] Azure Portal accessed successfully (Screenshot 1)
+- [x] Free Trial subscription confirmed (Screenshot 2)
+- [x] Reflection paragraph written (Notes)
+- [x] No sensitive information exposed
 
 ---
 
