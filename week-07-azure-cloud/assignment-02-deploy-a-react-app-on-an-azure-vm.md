@@ -20,9 +20,8 @@ Create the Azure Resource Group `react-app-rg` in a region close to you.
 
 #### Screenshot 1 — Resource Group overview showing the name and region
 
-Add your screenshot here.
+![Screenshot1](<screenshots/Screenshot1 Task1 Assign2 week7.png>)
 
----
 
 # Task 2 — Provision Ubuntu VM (20.04) with Correct Networking
 
@@ -34,15 +33,16 @@ Create an Ubuntu 20.04 LTS VM (size B1s) with a Network Security Group allowing 
 
 #### Screenshot 2 — Azure VM overview page showing the VM name, Resource Group, and region
 
-Add your screenshot here.
 
----
+![Screenshot2](<screenshots/Screenshot2 Task2 Assign2 Week7 Azzure.png>)
+
+
 
 #### Screenshot 3 — Network Security Group inbound rules showing ports 22 and 80 allowed
 
-Add your screenshot here.
+![Screenshot3](<screenshots/Screenshot3  Task2 Assign2 Week7.png>)
 
----
+
 
 # Task 3 — SSH into the Azure VM
 
@@ -54,9 +54,9 @@ Connect to the VM over SSH and confirm the Linux prompt is visible.
 
 #### Screenshot 4 — Terminal showing a successful SSH login with the prompt visible
 
-Add your screenshot here.
+![Screenshot4](<screenshots/Screenshot4 Task3 Assign2 Week7 Azure.png>)
 
----
+
 
 # Task 4 — Update OS and Install Prerequisites (Git, Node.js, npm)
 
@@ -68,9 +68,9 @@ Update Ubuntu and install Git, Node.js, and npm.
 
 #### Screenshot 5 — Terminal output showing `node -v` and `npm -v`
 
-Add your screenshot here.
 
----
+![Screenshot5](<screenshots/Screenshot5 Task4 Assign2 Week7 Azure.png>)
+
 
 # Task 5 — Clone and Build the React App
 
@@ -82,9 +82,9 @@ Clone `my-react-app`, install dependencies, and run `npm run build` to produce t
 
 #### Screenshot 6 — Terminal showing successful `npm run build` completion and `ls -la build` output
 
-Add your screenshot here.
+![Screenshot6](<screenshots/Screenshot6 Task5 Assign2 Week7Azure.png>)
 
----
+
 
 # Task 6 — Install and Configure Nginx to Serve the React Build
 
@@ -96,15 +96,17 @@ Install Nginx and configure it to serve the `build/` directory with `try_files $
 
 #### Screenshot 7 — Successful `sudo nginx -t` output
 
-Add your screenshot here.
 
----
+![Screenshot7](<screenshots/Screenshot7 Task6 Assign2 Week7 Azure.png>)
+
+
 
 #### Screenshot 8 — Nginx configuration snippet showing the build root and `try_files` directive
 
-Add your screenshot here.
 
----
+![Screenshot8](<screenshots/Screenshot8 Task6 Assign2 Week7 Azure.png>)
+
+
 
 # Task 7 — Test the Deployment (Public IP)
 
@@ -116,9 +118,9 @@ Confirm the React app loads through the VM's public IP, navigation works, and a 
 
 #### Screenshot 9 — Browser showing the React app with the public IP visible in the address bar
 
-Add your screenshot here.
 
----
+![Screenshot9](<screenshots/Screenshot9 Task7 Assign2 Week7 Azure.png>)
+
 
 # Task 8 — Basic Hardening (Recommended)
 
@@ -130,9 +132,9 @@ Restrict the SSH Network Security Group rule to your IP if not already restricte
 
 #### Screenshot 10 (optional) — Network Security Group rule showing SSH restricted to your IP
 
-Add your screenshot here.
 
----
+![Screenshot10](<screenshots/Screenshot10 Assign2 Task8 Week7 Azure.png>)
+
 
 # Submission Instructions
 
@@ -143,15 +145,15 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Resource Group created (Screenshot 1)
-- [ ] Task 2: Ubuntu VM provisioned with correct NSG rules (Screenshots 2 & 3)
-- [ ] Task 3: SSH access verified (Screenshot 4)
-- [ ] Task 4: Git, Node.js, and npm installed (Screenshot 5)
-- [ ] Task 5: React app built successfully (Screenshot 6)
-- [ ] Task 6: Nginx configured with SPA routing support (Screenshots 7 & 8)
-- [ ] Task 7: App verified via the VM public IP, including route refresh (Screenshot 9)
-- [ ] Task 8: SSH hardening applied (Screenshot 10, optional)
-- [ ] No sensitive data exposed
+- [x] Task 1: Resource Group created (Screenshot 1)
+- [x] Task 2: Ubuntu VM provisioned with correct NSG rules (Screenshots 2 & 3)
+- [x] Task 3: SSH access verified (Screenshot 4)
+- [x] Task 4: Git, Node.js, and npm installed (Screenshot 5)
+- [x] Task 5: React app built successfully (Screenshot 6)
+- [x] Task 6: Nginx configured with SPA routing support (Screenshots 7 & 8)
+- [x] Task 7: App verified via the VM public IP, including route refresh (Screenshot 9)
+- [x] Task 8: SSH hardening applied (Screenshot 10, optional)
+- [x] No sensitive data exposed
 
 ---
 
