@@ -275,7 +275,7 @@ Suggested tags:
 
 #### LinkedIn Post URL
 
-https://lnkd.in/p/eNuc3bME
+https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-aws-cloudsecurity-ugcPost-7498390015664676865-1aMv/
 
 
 #### Screenshot of Published LinkedIn Post
