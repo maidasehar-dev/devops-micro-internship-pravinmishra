@@ -20,9 +20,9 @@ Create `eb-demo-vnet` (10.0.0.0/16) with `web-subnet` (10.0.1.0/24), `app-subnet
 
 #### Screenshot 1 — Subnet configuration screen showing the three subnets and Bastion subnet (if enabled)
 
-Add your screenshot here.
+![Screenshot1](<screenshots/Screenshot1 Task1 Assign 3 Week7 azure.png>)
 
----
+
 
 # Task 2 — Deploy the Web VM and Install NGINX
 
@@ -44,9 +44,10 @@ Create Standard Public Load Balancer `web-public-elb` with frontend IP `web-elb-
 
 #### Screenshot 2 — Load Balancer frontend IP configuration
 
-Add your screenshot here.
 
----
+![Screenshot2](<screenshots/Screenshot2 Task 3 Assign3 WEEK7 Azure.png>)
+
+
 
 # Task 4 — Test the Architecture
 
@@ -58,9 +59,8 @@ Confirm the NGINX default page is reachable through the Load Balancer's public I
 
 #### Screenshot 3 — Browser showing the NGINX welcome page through the Load Balancer Public IP
 
-Add your screenshot here.
+![Screenshot3](<screenshots/Screenshot3 Task4 Assign3 WEEK7 Azure.png>)
 
----
 
 # Task 5 — Clean Up Resources
 
@@ -82,12 +82,12 @@ After capturing all required evidence, delete the `vnet-demo-rg` Resource Group 
 
 # Completion Checklist
 
-- [ ] Task 1: VNet and three subnets created (Screenshot 1)
-- [ ] Task 2: Web VM created and NGINX installed and verified
-- [ ] Task 3: Public Load Balancer configured (Screenshot 2)
-- [ ] Task 4: NGINX reachable through the Load Balancer public IP (Screenshot 3)
-- [ ] Task 5: Resource Group deleted after evidence was captured
-- [ ] No sensitive data exposed
+- [x] Task 1: VNet and three subnets created (Screenshot 1)
+- [x] Task 2: Web VM created and NGINX installed and verified
+- [x] Task 3: Public Load Balancer configured (Screenshot 2)
+- [x] Task 4: NGINX reachable through the Load Balancer public IP (Screenshot 3)
+- [x] Task 5: Resource Group deleted after evidence was captured
+- [x] No sensitive data exposed
 
 ---
 

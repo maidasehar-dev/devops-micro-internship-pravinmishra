@@ -136,7 +136,7 @@ Week 07 → Azure Cloud
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_dmicohort3-devops-agenticai-ugcPost-7483581623951785984-l60R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q | https://maida-devops-journey.blogspot.com/2026/07/from-cloud-deployment-to-ai-assisted.html |
 | 04 | Git & GitHub | ✅ Completed  | ✅ Solved  | https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-git-github-share-7486482415113355264-qNbs/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q | https://maida-devops-journey.blogspot.com/2026/07/version-control-branches-and-little-ai.html |
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved  | https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-agile-scrum-share-7491854268983910400-7D9j/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDAZeMBfFjix-eqjklKqLfUwTxMrs40I1Q | https://maida-devops-journey.blogspot.com/2026/08/from-jira-tickets-to-live-deployments.html |
-| 06 | AWS Cloud | ✅ Completed | ✅ Solved | https://lnkd.in/p/eNuc3bME | https://maida-devops-journey.blogspot.com/2026/08/from-s3-to-three-tier-app-my-week-6-in.html |
+| 06 | AWS Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/maida-sehar-2ab997263_devops-aws-cloudsecurity-activity-7498390017023590400-ZPYJ | https://maida-devops-journey.blogspot.com/2026/08/from-s3-to-three-tier-app-my-week-6-in.html |
 | 07 | Azure Cloud | ✅ Completed | ✅ Solved  | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
